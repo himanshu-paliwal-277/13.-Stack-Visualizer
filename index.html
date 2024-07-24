@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="styles.css" />
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- website logo -->
+    <link rel="shortcut icon" href="./Assets/logo.png" type="image/x-icon" />
   </head>
   <body
     class="bg-gradient-to-b from-sky-300 to-indigo-300 flex sm:justify-center sm:items-center sm:w-full sm:h-screen"
   >
     <h1
-      class="absolute top-4 text-4xl font-semibold"
+      class="absolute top-3 text-4xl font-semibold"
       style="text-shadow: 3px 3px 3px white"
     >
       Stack Visualizer
@@ -21,6 +23,12 @@
     <div
       class="sm:w-[95%] w-full relative shadow-2xl bg-white py-8 rounded-lg flex flex-col items-center"
     >
+      <h1
+        class="text-4xl font-semibold block sm:hidden my-2"
+        style="text-shadow: 2px 2px 3px #62d9fd"
+      >
+        Stack Visualizer
+      </h1>
       <div class="flex sm:flex-row flex-col">
         <div class="flex flex-col items-center">
           <div
@@ -98,7 +106,7 @@
       <div class="absolute right-3 top-2 flex">
         <div
           id="information_div"
-          class="w-[270px] opacity-0 duration-500 text-[15px] mt-10 p-5 bg-blue-400 bg-opacity-30 pb-8 rounded-xl"
+          class="w-[270px] opacity-0 duration-500 text-[15px] mt-10 p-5 bg-blue-200 pb-8 rounded-xl"
         >
           A stack is a linear data structure that follows the Last In, First Out
           (LIFO) principle. This means that the last element added to the stack
